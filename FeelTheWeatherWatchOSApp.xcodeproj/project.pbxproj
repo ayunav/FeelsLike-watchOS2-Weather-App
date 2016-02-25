@@ -13,7 +13,58 @@
 		29F8A1011C7E9E8E0004C16C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F8A0FF1C7E9E8E0004C16C /* Main.storyboard */; };
 		29F8A1031C7E9E8E0004C16C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F8A1021C7E9E8E0004C16C /* Assets.xcassets */; };
 		29F8A1061C7E9E8E0004C16C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F8A1041C7E9E8E0004C16C /* LaunchScreen.storyboard */; };
+		29F8A1131C7E9EEC0004C16C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F8A1111C7E9EEC0004C16C /* Interface.storyboard */; };
+		29F8A1151C7E9EEC0004C16C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F8A1141C7E9EEC0004C16C /* Assets.xcassets */; };
+		29F8A11C1C7E9EEC0004C16C /* FeelTheWeather Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 29F8A11B1C7E9EEC0004C16C /* FeelTheWeather Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		29F8A1221C7E9EEC0004C16C /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F8A1211C7E9EEC0004C16C /* InterfaceController.m */; };
+		29F8A1251C7E9EEC0004C16C /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F8A1241C7E9EEC0004C16C /* ExtensionDelegate.m */; };
+		29F8A1271C7E9EEC0004C16C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F8A1261C7E9EEC0004C16C /* Assets.xcassets */; };
+		29F8A12B1C7E9EEC0004C16C /* FeelTheWeather.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 29F8A10F1C7E9EEC0004C16C /* FeelTheWeather.app */; };
+		8EC342E99EE147D45164096C /* libPods-FeelTheWeather Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DDD8BF01144723B094C916 /* libPods-FeelTheWeather Extension.a */; };
+		C65AF7536F77039C65D8E72C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 556C67E6F0BA76FC0113DBA7 /* libPods.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29F8A11D1C7E9EEC0004C16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29F8A0EB1C7E9E8E0004C16C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29F8A11A1C7E9EEC0004C16C;
+			remoteInfo = "FeelTheWeather Extension";
+		};
+		29F8A1291C7E9EEC0004C16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29F8A0EB1C7E9E8E0004C16C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29F8A10E1C7E9EEC0004C16C;
+			remoteInfo = FeelTheWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		29F8A12F1C7E9EEC0004C16C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				29F8A11C1C7E9EEC0004C16C /* FeelTheWeather Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F8A1331C7E9EEC0004C16C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				29F8A12B1C7E9EEC0004C16C /* FeelTheWeather.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		29F8A0F31C7E9E8E0004C16C /* FeelTheWeatherWatchOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeelTheWeatherWatchOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +77,23 @@
 		29F8A1021C7E9E8E0004C16C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29F8A1051C7E9E8E0004C16C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29F8A1071C7E9E8E0004C16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F8A10F1C7E9EEC0004C16C /* FeelTheWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeelTheWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F8A1121C7E9EEC0004C16C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		29F8A1141C7E9EEC0004C16C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29F8A1161C7E9EEC0004C16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F8A11B1C7E9EEC0004C16C /* FeelTheWeather Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FeelTheWeather Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F8A1201C7E9EEC0004C16C /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		29F8A1211C7E9EEC0004C16C /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		29F8A1231C7E9EEC0004C16C /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		29F8A1241C7E9EEC0004C16C /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		29F8A1261C7E9EEC0004C16C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29F8A1281C7E9EEC0004C16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556C67E6F0BA76FC0113DBA7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DDD8BF01144723B094C916 /* libPods-FeelTheWeather Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FeelTheWeather Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		740A0FE02BCEDA98135C874E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8BF4B145949FDD525FBFB8A6 /* Pods-FeelTheWeather Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelTheWeather Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeelTheWeather Extension/Pods-FeelTheWeather Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		916D051D0D8E08C63DD95C7E /* Pods-FeelTheWeather Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelTheWeather Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeelTheWeather Extension/Pods-FeelTheWeather Extension.release.xcconfig"; sourceTree = "<group>"; };
+		D30767F2CAF754C6903E4BD3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +101,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65AF7536F77039C65D8E72C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F8A1181C7E9EEC0004C16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC342E99EE147D45164096C /* libPods-FeelTheWeather Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F926DB1D5B26C8E671B2B1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				740A0FE02BCEDA98135C874E /* Pods.debug.xcconfig */,
+				D30767F2CAF754C6903E4BD3 /* Pods.release.xcconfig */,
+				8BF4B145949FDD525FBFB8A6 /* Pods-FeelTheWeather Extension.debug.xcconfig */,
+				916D051D0D8E08C63DD95C7E /* Pods-FeelTheWeather Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		29F8A0EA1C7E9E8E0004C16C = {
 			isa = PBXGroup;
 			children = (
 				29F8A0F51C7E9E8E0004C16C /* FeelTheWeatherWatchOSApp */,
+				29F8A1101C7E9EEC0004C16C /* FeelTheWeather */,
+				29F8A11F1C7E9EEC0004C16C /* FeelTheWeather Extension */,
 				29F8A0F41C7E9E8E0004C16C /* Products */,
+				1F926DB1D5B26C8E671B2B1C /* Pods */,
+				D7152164941917A92A4BDC55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				29F8A0F31C7E9E8E0004C16C /* FeelTheWeatherWatchOSApp.app */,
+				29F8A10F1C7E9EEC0004C16C /* FeelTheWeather.app */,
+				29F8A11B1C7E9EEC0004C16C /* FeelTheWeather Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +173,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		29F8A1101C7E9EEC0004C16C /* FeelTheWeather */ = {
+			isa = PBXGroup;
+			children = (
+				29F8A1111C7E9EEC0004C16C /* Interface.storyboard */,
+				29F8A1141C7E9EEC0004C16C /* Assets.xcassets */,
+				29F8A1161C7E9EEC0004C16C /* Info.plist */,
+			);
+			path = FeelTheWeather;
+			sourceTree = "<group>";
+		};
+		29F8A11F1C7E9EEC0004C16C /* FeelTheWeather Extension */ = {
+			isa = PBXGroup;
+			children = (
+				29F8A1201C7E9EEC0004C16C /* InterfaceController.h */,
+				29F8A1211C7E9EEC0004C16C /* InterfaceController.m */,
+				29F8A1231C7E9EEC0004C16C /* ExtensionDelegate.h */,
+				29F8A1241C7E9EEC0004C16C /* ExtensionDelegate.m */,
+				29F8A1261C7E9EEC0004C16C /* Assets.xcassets */,
+				29F8A1281C7E9EEC0004C16C /* Info.plist */,
+			);
+			path = "FeelTheWeather Extension";
+			sourceTree = "<group>";
+		};
+		D7152164941917A92A4BDC55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				556C67E6F0BA76FC0113DBA7 /* libPods.a */,
+				56DDD8BF01144723B094C916 /* libPods-FeelTheWeather Extension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,18 +212,60 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29F8A10A1C7E9E8E0004C16C /* Build configuration list for PBXNativeTarget "FeelTheWeatherWatchOSApp" */;
 			buildPhases = (
+				1404F34CB166DAEE2C605718 /* Check Pods Manifest.lock */,
 				29F8A0EF1C7E9E8E0004C16C /* Sources */,
 				29F8A0F01C7E9E8E0004C16C /* Frameworks */,
 				29F8A0F11C7E9E8E0004C16C /* Resources */,
+				29F8A1331C7E9EEC0004C16C /* Embed Watch Content */,
+				86639613CBB0DFECE2EF85A3 /* Embed Pods Frameworks */,
+				551E93A7EC331E0CC562B82E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				29F8A12A1C7E9EEC0004C16C /* PBXTargetDependency */,
 			);
 			name = FeelTheWeatherWatchOSApp;
 			productName = FeelTheWeatherWatchOSApp;
 			productReference = 29F8A0F31C7E9E8E0004C16C /* FeelTheWeatherWatchOSApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		29F8A10E1C7E9EEC0004C16C /* FeelTheWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F8A1301C7E9EEC0004C16C /* Build configuration list for PBXNativeTarget "FeelTheWeather" */;
+			buildPhases = (
+				29F8A10D1C7E9EEC0004C16C /* Resources */,
+				29F8A12F1C7E9EEC0004C16C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29F8A11E1C7E9EEC0004C16C /* PBXTargetDependency */,
+			);
+			name = FeelTheWeather;
+			productName = FeelTheWeather;
+			productReference = 29F8A10F1C7E9EEC0004C16C /* FeelTheWeather.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		29F8A11A1C7E9EEC0004C16C /* FeelTheWeather Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F8A12C1C7E9EEC0004C16C /* Build configuration list for PBXNativeTarget "FeelTheWeather Extension" */;
+			buildPhases = (
+				7EA5B91D7DB32B00D2E93F7E /* Check Pods Manifest.lock */,
+				29F8A1171C7E9EEC0004C16C /* Sources */,
+				29F8A1181C7E9EEC0004C16C /* Frameworks */,
+				29F8A1191C7E9EEC0004C16C /* Resources */,
+				EC81D1D7F08AC3B118861186 /* Embed Pods Frameworks */,
+				1C256CEC2844545839D11B4D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FeelTheWeather Extension";
+			productName = "FeelTheWeather Extension";
+			productReference = 29F8A11B1C7E9EEC0004C16C /* FeelTheWeather Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -109,6 +277,12 @@
 				ORGANIZATIONNAME = "Ayuna Vogel";
 				TargetAttributes = {
 					29F8A0F21C7E9E8E0004C16C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					29F8A10E1C7E9EEC0004C16C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					29F8A11A1C7E9EEC0004C16C = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
@@ -127,6 +301,8 @@
 			projectRoot = "";
 			targets = (
 				29F8A0F21C7E9E8E0004C16C /* FeelTheWeatherWatchOSApp */,
+				29F8A10E1C7E9EEC0004C16C /* FeelTheWeather */,
+				29F8A11A1C7E9EEC0004C16C /* FeelTheWeather Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -142,7 +318,117 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		29F8A10D1C7E9EEC0004C16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F8A1151C7E9EEC0004C16C /* Assets.xcassets in Resources */,
+				29F8A1131C7E9EEC0004C16C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F8A1191C7E9EEC0004C16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F8A1271C7E9EEC0004C16C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1404F34CB166DAEE2C605718 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1C256CEC2844545839D11B4D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeelTheWeather Extension/Pods-FeelTheWeather Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		551E93A7EC331E0CC562B82E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA5B91D7DB32B00D2E93F7E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86639613CBB0DFECE2EF85A3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC81D1D7F08AC3B118861186 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeelTheWeather Extension/Pods-FeelTheWeather Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29F8A0EF1C7E9E8E0004C16C /* Sources */ = {
@@ -155,7 +441,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		29F8A1171C7E9EEC0004C16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F8A1251C7E9EEC0004C16C /* ExtensionDelegate.m in Sources */,
+				29F8A1221C7E9EEC0004C16C /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29F8A11E1C7E9EEC0004C16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29F8A11A1C7E9EEC0004C16C /* FeelTheWeather Extension */;
+			targetProxy = 29F8A11D1C7E9EEC0004C16C /* PBXContainerItemProxy */;
+		};
+		29F8A12A1C7E9EEC0004C16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29F8A10E1C7E9EEC0004C16C /* FeelTheWeather */;
+			targetProxy = 29F8A1291C7E9EEC0004C16C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		29F8A0FF1C7E9E8E0004C16C /* Main.storyboard */ = {
@@ -172,6 +480,14 @@
 				29F8A1051C7E9E8E0004C16C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		29F8A1111C7E9EEC0004C16C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29F8A1121C7E9EEC0004C16C /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,6 +575,7 @@
 		};
 		29F8A10B1C7E9E8E0004C16C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740A0FE02BCEDA98135C874E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FeelTheWeatherWatchOSApp/Info.plist;
@@ -270,12 +587,73 @@
 		};
 		29F8A10C1C7E9E8E0004C16C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30767F2CAF754C6903E4BD3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FeelTheWeatherWatchOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ayunavogel.FeelTheWeatherWatchOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29F8A12D1C7E9EEC0004C16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF4B145949FDD525FBFB8A6 /* Pods-FeelTheWeather Extension.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "FeelTheWeather Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayunavogel.FeelTheWeatherWatchOSApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		29F8A12E1C7E9EEC0004C16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916D051D0D8E08C63DD95C7E /* Pods-FeelTheWeather Extension.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "FeelTheWeather Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayunavogel.FeelTheWeatherWatchOSApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		29F8A1311C7E9EEC0004C16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = FeelTheWeather_Extension;
+				INFOPLIST_FILE = FeelTheWeather/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayunavogel.FeelTheWeatherWatchOSApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		29F8A1321C7E9EEC0004C16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = FeelTheWeather_Extension;
+				INFOPLIST_FILE = FeelTheWeather/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayunavogel.FeelTheWeatherWatchOSApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Release;
 		};
@@ -298,6 +676,25 @@
 				29F8A10C1C7E9E8E0004C16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F8A12C1C7E9EEC0004C16C /* Build configuration list for PBXNativeTarget "FeelTheWeather Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F8A12D1C7E9EEC0004C16C /* Debug */,
+				29F8A12E1C7E9EEC0004C16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F8A1301C7E9EEC0004C16C /* Build configuration list for PBXNativeTarget "FeelTheWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F8A1311C7E9EEC0004C16C /* Debug */,
+				29F8A1321C7E9EEC0004C16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
