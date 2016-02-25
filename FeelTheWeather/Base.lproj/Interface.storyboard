@@ -12,33 +12,40 @@
                     <items>
                         <group width="1" height="67.5" alignment="left" id="hh2-Ve-PYn">
                             <items>
-                                <label width="135.5" height="72.5" alignment="left" text="Label" textAlignment="center" numberOfLines="0" id="XOh-Fa-whP"/>
+                                <label width="135.5" height="72.5" alignment="center" verticalAlignment="center" textAlignment="center" baselineAdjustment="alignCenters" numberOfLines="0" id="XOh-Fa-whP"/>
                             </items>
                         </group>
-                        <group width="1" alignment="left" id="329-Rw-JXJ">
+                        <group width="1" height="40" alignment="center" id="329-Rw-JXJ">
                             <items>
-                                <label height="37.5" alignment="left" text="Label" id="zrt-Dr-4NI"/>
-                                <imageView width="44" alignment="center" id="gDo-Pj-Abp"/>
+                                <group width="40" height="40" alignment="left" radius="20" id="xVJ-iY-6gO">
+                                    <items>
+                                        <imageView width="1" alignment="center" alpha="0.69999999999999996" contentMode="scaleAspectFit" id="gDo-Pj-Abp"/>
+                                    </items>
+                                </group>
+                                <label width="40" height="1" alignment="left" id="zrt-Dr-4NI"/>
+                                <label width="40" height="1" alignment="left" id="Nh0-OK-czN"/>
                             </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
                         </group>
-                        <group width="1" alignment="left" id="IqL-Br-IJb">
+                        <group width="96" height="25" alignment="center" verticalAlignment="center" id="IqL-Br-IJb">
                             <items>
-                                <button width="1" alignment="left" title="Button" id="otN-wJ-gAt">
+                                <button width="1" height="1" alignment="left" title="Refresh" id="otN-wJ-gAt">
                                     <connections>
-                                        <action selector="updateWeatherData" destination="AgC-eL-Hgc" id="AcA-S0-64w"/>
+                                        <action selector="refreshButtonTapped" destination="AgC-eL-Hgc" id="tao-eK-uSr"/>
                                     </connections>
                                 </button>
                             </items>
                         </group>
                     </items>
                     <connections>
+                        <outlet property="emojiLabel" destination="Nh0-OK-czN" id="dEs-UQ-jde"/>
                         <outlet property="temperatureLabel" destination="zrt-Dr-4NI" id="jnn-y1-ga0"/>
                         <outlet property="weatherIconImage" destination="gDo-Pj-Abp" id="80A-bB-13P"/>
                         <outlet property="weatherSummaryLabel" destination="XOh-Fa-whP" id="bE2-gk-JQQ"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="275" y="353"/>
+            <point key="canvasLocation" x="275" y="303.5"/>
         </scene>
     </scenes>
 </document>

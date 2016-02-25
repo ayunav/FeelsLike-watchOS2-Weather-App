@@ -11,8 +11,6 @@
 #import <AFNetworking/AFNetworking.h>
 
 @interface InterfaceController : WKInterfaceController
-@property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceLabel *weatherSummaryLabel;
-@property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceImage *weatherIconImage;
-- (IBAction)updateWeatherData;
+
 
 @end
