@@ -20,4 +20,4 @@ Next step:
 
 Mockup wireframe/paper sketch of the basic UI elements of the app: 
 
-![mockup](https://github.com/ayunav/Feel-weatherWatchOS2App/blob/master/FeelWatchOSAppWireframePaperSketch.jpg)
+![mockup](https://github.com/ayunav/Feel-weatherWatchOS2App/blob/master/FeelWeatherWatchOSAppPaperSketch.jpg)
