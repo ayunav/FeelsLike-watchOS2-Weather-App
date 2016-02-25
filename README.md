@@ -13,6 +13,6 @@ Next step:
 * implement features based on the wireframe mockup. 
 
 
-Mockup wireframe/paper sketch of the basic UI elements of the app 
+Mockup wireframe/paper sketch of the basic UI elements of the app: 
 
 ![mockup](https://github.com/ayunav/Feel-weatherWatchOS2App/blob/master/FeelWatchOSAppWireframePaperSketch.jpg)
