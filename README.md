@@ -9,10 +9,7 @@ The app currently displays:
 * emoji that gives you a quick context of today's weather. 
 
 A user can click the Refresh button to update the weather information. 
-
-
 ![image](https://github.com/ayunav/Feel-weatherWatchOS2App/blob/master/Screen.Shot.2016-02-25.at.1.40.19.AM.png)
-
 Next steps: 
 
 * request info about user's location and display the weather data based on user's location; 
