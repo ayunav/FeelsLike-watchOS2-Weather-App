@@ -1,4 +1,4 @@
-# Feel - weather watchOS 2 App
+# Feel - watchOS 2 weather app
 This is the beginning of the watchOS app project that displays today's weather compared to what it felt like yesterday. 
 
 This is my first time playing with the WatchKit, and it's exciting! I'm planning to write about my learning experience [here](https://medium.com/@AyunasCode). Follow me on [Medium](https://medium.com/@AyunasCode) or [Twitter](https://twitter.com/AyunasCode) for updates. The app is super simple right now but... hey, it works! :)
