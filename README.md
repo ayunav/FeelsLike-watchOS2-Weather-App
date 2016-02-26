@@ -1,7 +1,9 @@
 # Feel - weather watchOS 2 App
 This is the beginning of the watchOS app project that displays today's weather compared to what it felt like yesterday. 
 
-The app uses [AFNetworking](https://github.com/AFNetworking/AFNetworking) library and data from the [ForecastIO](https://developer.forecast.io/) API, and currently displays:
+The app uses [AFNetworking](https://github.com/AFNetworking/AFNetworking) library and data from the [ForecastIO](https://developer.forecast.io/) API. 
+
+The app currently displays:
 * today's weather description, 
 * temperature in Fahrenheit,
 * emoji that gives you a quick context of today's weather. 
